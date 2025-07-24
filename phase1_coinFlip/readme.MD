@@ -631,6 +631,12 @@ Before we begin, ensure you have the following:
 - **Base Sepolia** set up on MetaMask ([add Base Sepolia to your MetaMask here](https://docs.base.org/docs/using-base/#metamask))
 - **Testnet Ether** on the Base Sepolia network ([get Base Sepolia testnet Ether here](https://faucets.chain.link/base-sepolia))
 
+> *update: 20250723*
+> 
+> **If you want to get Testnet Ether for Base Sepolia via Chainlink, there is currently a requirement for a real account balance.** 
+> But if you don't have any Mainnet balance in your account, you can use the Sepolia network instead of Base Sepolia:
+> - **Sepolia** set up on MetaMask ([Set MetaMask Testnet](https://support.metamask.io/configure/networks/how-to-view-testnets-in-metamask/))(Just show the testnets and select 【Sepolia】 )
+> - **Testnet Ether** on the Sepolia network ([PoWFaucet](https://sepolia-faucet.pk910.de/#/))(You don't need any Mainnet balance in your account, this faucet requires some mining work to be done in exchange for free testnet funds.)
 ---
 
 1.  visit [https://remix.ethereum.org/](https://remix.ethereum.org/) and connect your MetaMask wallet.
@@ -651,7 +657,7 @@ We are going to test the smart contract using injected provider MetaMask.
 
 1.  Once you have your MetaMask connected, you can click the “Deploy” button to deploy `EtherCoinFlip.sol` to the blockchain!
 
-Make sure your [MetaMask is set to Base Sepolia](https://docs.base.org/docs/using-base/#metamask), and then approve the transaction.
+Make sure your [MetaMask is set to Base Sepolia](https://docs.base.org/docs/using-base/#metamask) or Sepolia testnet, and then approve the transaction.
 
 ![](./images/Screenshot_2024-11-08_at_5.24.46_PM.png)
 
@@ -712,6 +718,19 @@ graph init
 ```
 
 Note: If your contract was verified on Etherscan, then the ABI will automatically be created in the CLI. Otherwise, you will need to provide the ABI while using the CLI.
+
+> update: 20250723
+> Before init your Subgraph, you need:
+> 1. Get your contract ABI content on Remix (Side Menu -> Solidity compiler -> Compile your contract -> Copy ABI to clipboard).
+> 2. Save the ABI content to your local File System as a Json file.
+> 3. Run the Command blow to set the ABI Json, contract address and network.
+```
+graph init <your subgraph slug> --abi <your ABI file path> --from-contract <your contract address> --network sepolia
+
+// for example:
+graph init ether-coin-flip --abi ./EtherCoinFlip/EtherCoinFlip.abi.json --from-contract 0x620623A48158Fbe22bB9854d04472A0dfF19dFdB --network sepolia
+```
+
 
 You can find commands for your specific subgraph on the subgraph page in  [Subgraph Studio](https://thegraph.com/studio/).
 
