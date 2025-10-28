@@ -13,7 +13,8 @@
 
 2. **Technical Design** (First week)
 
-   - Analysis of Uniswap v2 EVM architecture
+   - Analysis of Uniswap v2 core and v2 periphery
+   - Develop scripts for Uniswap v2 peripheral interactions
    - Design Solana program architecture for AMM functionality
    - Define account structures and PDA derivation paths
    - Determine token swap mechanics in Solana's model
