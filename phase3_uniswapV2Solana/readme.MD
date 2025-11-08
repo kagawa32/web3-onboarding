@@ -15,7 +15,7 @@
 2. **Technical Design** (First week)
 
    - Analysis of Uniswap v2-core and v2-periphery
-   - Deploy v2-core and v2-periphery on EVM testnet
+   - Deploy v2-core and v2-periphery on EVM testnet(e.g., sepolia testnet)
    - Implement scripts to interact with Uniswap v2 peripheral contract
    - Design Solana program architecture for AMM functionality
    - Define account structures and PDA derivation paths
