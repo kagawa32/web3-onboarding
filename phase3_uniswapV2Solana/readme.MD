@@ -16,7 +16,7 @@
 
    - Analysis of Uniswap v2-core and v2-periphery
    - Deploy v2-core and v2-periphery on EVM testnet(e.g., sepolia testnet)
-   - Implement scripts to interact with Uniswap v2 peripheral contract
+   - Implement scripts to interact with Uniswap v2-peripheral contract
    - Design Solana program architecture for AMM functionality
    - Define account structures and PDA derivation paths
    - Determine token swap mechanics in Solana's model
@@ -28,7 +28,6 @@
    - Implement factory program for creating token pairs
    - Develop core swap functionality
    - Implement liquidity provision/removal logic
-   - Create flash swap capability
    - Develop price oracle functionality
    - Build router program for optimal trading paths
 
