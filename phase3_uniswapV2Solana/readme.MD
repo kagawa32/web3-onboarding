@@ -2,7 +2,8 @@
 
 ### Implementing Uniswap v2 on Solana
 
-[Uniswap v2](https://github.com/Uniswap/v2-core)
+[Uniswap v2-periphery](https://github.com/Uniswap/v2-periphery) 
+[Uniswap v2-core](https://github.com/Uniswap/v2-core)
 
 1. **Project Plan** (2 days)
 
@@ -13,8 +14,9 @@
 
 2. **Technical Design** (First week)
 
-   - Analysis of Uniswap v2 core and v2 periphery
-   - Develop scripts for Uniswap v2 peripheral interactions
+   - Analysis of Uniswap v2-core and v2-periphery
+   - Deploy v2-core and v2-periphery on EVM testnet
+   - Implement scripts to interact with Uniswap v2 peripheral contract
    - Design Solana program architecture for AMM functionality
    - Define account structures and PDA derivation paths
    - Determine token swap mechanics in Solana's model
