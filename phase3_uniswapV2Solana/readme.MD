@@ -2,7 +2,7 @@
 
 ### Implementing Uniswap v2 on Solana
 
-[Uniswap v2-periphery](https://github.com/Uniswap/v2-periphery) 
+[Uniswap v2-periphery](https://github.com/Uniswap/v2-periphery)  
 [Uniswap v2-core](https://github.com/Uniswap/v2-core)
 
 1. **Project Plan** (2 days)
