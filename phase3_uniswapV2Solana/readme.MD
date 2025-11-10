@@ -91,10 +91,12 @@ Upon completion of Phase 3, participants must organize a meeting to demonstrate 
    - Clear user guides and examples
    - Intuitive interface for protocol interaction
 
-## Useful document List
+## Useful Document List
 1. [Uniswap v2-periphery](https://github.com/Uniswap/v2-periphery)  
 2. [Uniswap v2-core](https://github.com/Uniswap/v2-core)  
 3. [Uniswap doc](https://docs.uniswap.org/contracts/v2/overview)
 4. [Solana](https://solana.com/zh/docs/intro/installation)  
 5. [Anchor](https://www.anchor-lang.com/docs)  
-6. [LiteSvm](https://github.com/LiteSVM/litesvm)
+6. [LiteSvm](https://github.com/LiteSVM/litesvm)  
+7. [Surfpool](https://docs.surfpool.run/)  
+8. [Hardhat](https://hardhat.org/)
