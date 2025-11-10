@@ -9,14 +9,14 @@
 
    - Define project scope and deliverables
    - Create a timeline with milestones
+   - Deploy v2-core and v2-periphery on EVM testnet(e.g., sepolia testnet)
+   - Hands on Uniswap v2-peripheral contract
    - Identify key components: AMM core, pair contracts, router, factory
    - Risk assessment and mitigation strategies
 
 2. **Technical Design** (First week)
 
    - Analysis of Uniswap v2-core and v2-periphery
-   - Deploy v2-core and v2-periphery on EVM testnet(e.g., sepolia testnet)
-   - Implement scripts to interact with Uniswap v2-peripheral contract
    - Design Solana program architecture for AMM functionality
    - Define account structures and PDA derivation paths
    - Determine token swap mechanics in Solana's model
