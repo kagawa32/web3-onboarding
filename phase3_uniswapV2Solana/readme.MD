@@ -2,9 +2,6 @@
 
 ### Implementing Uniswap v2 on Solana
 
-[Uniswap v2-periphery](https://github.com/Uniswap/v2-periphery)  
-[Uniswap v2-core](https://github.com/Uniswap/v2-core)
-
 1. **Project Plan** (2 days)
 
    - Define project scope and deliverables
@@ -93,3 +90,11 @@ Upon completion of Phase 3, participants must organize a meeting to demonstrate 
    - Comprehensive technical documentation
    - Clear user guides and examples
    - Intuitive interface for protocol interaction
+
+## Useful document List
+1. [Uniswap v2-periphery](https://github.com/Uniswap/v2-periphery)  
+2. [Uniswap v2-core](https://github.com/Uniswap/v2-core)  
+3. [Uniswap doc](https://docs.uniswap.org/contracts/v2/overview)
+4. [Solana](https://solana.com/zh/docs/intro/installation)  
+5. [Anchor](https://www.anchor-lang.com/docs)  
+6. [LiteSvm](https://github.com/LiteSVM/litesvm)
